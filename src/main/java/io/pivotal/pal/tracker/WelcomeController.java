@@ -9,9 +9,9 @@ public class WelcomeController {
 
     private String welcomeMessage;
 
-    public WelcomeController(@Value("${welcome.message}") String welcomeMessage) {
-        this.welcomeMessage = welcomeMessage;
-    }
+    //public WelcomeController(@Value("${welcome.message}") String welcomeMessage) {
+    //   this.welcomeMessage = welcomeMessage;
+    //}
 
     @GetMapping("/")
     public String sayHello() {
